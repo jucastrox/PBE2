@@ -1,0 +1,15 @@
+body{
+    background-image: url(img/img4.jpg);
+}
+form{
+    width: 550px;
+    margin: auto;
+    background: #9aa3aa;
+    padding: 40px;
+    border-radius: 10px;
+    color: aliceblue;
+ }
+
+ h1{
+    text-align: center;
+ }
