@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro endereco</title>
+	<link rel="stylesheet" href="./css/endereco.css">
+</head>
+<body>
+    <h2>Cadastre seu endereço!</h2>
+    <br>
+	 <form id="cadastroEnderecoForm">
+        <label for ="nome">Nome da Rua:</label>
+        <input type="text" name="rua" id="rua"
+        readonly="required" autofocus><br>
+
+        <label for="numero" class="medidas">Número da casa:</label>
+        <input type="number" name="numero" id="numero"
+        class="numero" required step="01"><br>
+
+        <label for ="nome">Nome do bairro:</label>
+        <input type="text" name="bairro" id="bairro"
+        readonly="required" autofocus><br>
+
+
+        <label for ="nome">Cidade:</label>
+        <input type="text" name="cidade" id="cidade"
+        readonly="required" autofocus><br>
+
+        <label for ="nome">Estado:</label>
+        <input type="text" name="estado" id="estado"
+        readonly="required" autofocus><br>
+		
+		<label for="cep">Cep:</label>
+		<input type="text" id="cep" name="cep" required>
+
+		<button type="submit" name="enviar" value="Enviar">Enviar</button>
+
+    </form>
+	<script src="./Script/scriptEndereco.js"></script>
+</body>
+</html>
